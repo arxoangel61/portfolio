@@ -1,0 +1,443 @@
+
+
+/* font-family: 'IBM Plex Mono', monospace;
+font-family: 'Manrope', sans-serif; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  /* background: #F5F5F5; */
+  width: 100%;
+  
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container-inline{
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+
+/* секция header + welcome */
+
+.header {
+  background-image: url(человек.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 765px;
+
+
+} 
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header__logo {
+  margin-top: 38px;
+}
+
+
+
+.header__logo::before{
+  content: "ORLOV";
+  display: block;
+  position: absolute;
+  font-weight: 700;
+  font-size: 42.4138px;
+  line-height: 55px;
+  letter-spacing: -0.11em;
+  text-transform: uppercase;
+  color: #1BFF07;
+  top: -10px;
+  left: 10px;
+ 
+}
+
+.header__logo{
+  position: relative;
+  width: 130px;
+  height: 39px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  border-radius: 100px;
+}
+
+
+
+.header__list {
+  margin-top: 33px;
+}
+
+
+.header__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: #FFFFFF;
+  margin-left: 41px;
+  transition: 0.5s;
+}
+
+.header__item:hover{
+  color: #1BFF07;
+  transition: 0.5s;
+}
+
+
+
+
+/* секция welcome */
+.welcome {
+}
+.welcome__text {
+  margin-top: 258px;
+}
+
+.welcome__text p {
+  width: 430px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+
+.welcome__title {
+  margin-top: 26px;
+  margin-left: -5px;
+}
+
+.welcome__title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  color: #1BFF07;
+  width: 920px;
+}
+
+
+
+/* main */
+/* секция projects */
+
+.main {
+}
+.projects {
+  padding-top: 150px;
+  background: #000000;
+}
+.container-inline {
+}
+.projects__title {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-left: -5px;
+}
+.projects__list {
+  margin-top: 40px;
+}
+.projects__page {
+  position: relative;
+}
+
+.projects__page img {
+  border-radius: 30px;
+  height: 550px;
+}
+
+.projects__text{
+  position: absolute;
+  bottom: 52px;
+  left: 50px;
+}
+
+
+.projects__text h3{
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.projects__text p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+
+.projects__btn {
+  margin-top: 130px;
+  padding-bottom: 208px;
+}
+
+
+.projects__btn a{
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  background: #1BFF07;
+  border-radius: 10px;
+  color: #000000;
+  padding: 58px 120px;
+  transition: 0.2s;
+}
+
+.projects__btn a:hover {
+  background-color: #000000;
+  color: #1BFF07;
+  transition: 0.2s;
+  border: 1px solid #1BFF07;
+  padding: 57px 119px;
+}
+
+
+
+/* секция competencies */
+.competencies {
+  background: #000000;
+}
+.competencies__title {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+.competencies__items {
+}
+.competencies__item {
+
+}
+.competencies__pic {
+  width: 24px;
+  height: 24px;
+  background-color: #1BFF07;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 9px;
+}
+.competencies__subtitle {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  color: #1BFF07;
+  margin-bottom: 17px;
+}
+.competencies__text {
+  width: 778px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.competencies__items li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 90px;
+}
+
+
+/* секция tasks */
+.tasks {
+  background: #000000;
+}
+.tasks__title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  width: 403px;
+  margin-bottom: 74px;
+}
+.tasks__item {
+}
+.tack__items {
+  margin-bottom: 74px;
+}
+.task__pic {
+  height: 200px;
+  border-radius: 30px;
+  width: 100%;
+}
+.task__desc {
+  background: #191C19;
+  border-radius: 30px;
+  padding: 40px 40px;
+}
+.task__subtitle {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #1BFF07;
+  margin-bottom: 15px;
+}
+.task_text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  width: 749px;
+}
+
+
+.desc--padding{
+  background: #191C19;
+  border-radius: 30px;
+  padding: 40px 40px 70px;
+  margin-bottom: 134px;
+}
+
+.tasks__item li:last-child {
+  padding-bottom: 150px;
+}
+
+
+
+/* секция info */
+.info {
+  background: #191C19;
+  height: 717px;
+  
+}
+.info__container {
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+.info__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 126px;
+  margin-bottom: 93px;
+  border-radius: 30px;
+
+}
+.info__pic img{
+  border-radius: 30px;
+}
+
+.info__text {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+
+.info__link {
+  font-family: 'IBM Plex Mono';
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.info__link:hover {
+  color: #1BFF07;
+  transition: 0.2s;
+}
+
+
+
+.info__contacts a:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Секция footer */
+
+.footer {
+  padding-top: 145px;
+  background: #000000;
+}
+.footer__container {
+  background: #FFFFFF;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.footer__box {
+
+}
+.container-inline {
+}
+.footer__title {
+  padding-top: 75px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.footer__text {
+  padding-top: 66px;
+  padding-bottom: 90px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.footer__title a{
+  transition: 0.5s;
+  color: #000000;
+}
+
+.footer__title a:hover {
+  color: #1BFF07;
+  transition: 0.5s;
+}
