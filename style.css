@@ -38,7 +38,7 @@ a {
 /* секция header + welcome */
 
 .header {
-  background-image: url(resurses/человек.jpg);
+  background-image: url(человек.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
